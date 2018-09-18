@@ -25,5 +25,10 @@ router.get('/contacto', (req, res) =>{
   })
 })
 
+router.post('/contacto-mail', (req, res) => {
+  res.render('gracias', {
+    title: 'Envio de formulario'
+  })
+})
 // exporta las rutas
 module.exports = router;
