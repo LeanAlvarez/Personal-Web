@@ -1,15 +1,16 @@
 <% include partials/header %>
 
+<%# imagen de presentacion %>
 <section>
 <div class="container mt-5 mb-5">
   <!-- Card -->
   <div class="card  overlay zoom mask">
 
     <!-- Card image -->
-    <div class="view view-cascade overlay ">
-      <img class="card-img-top" src="img/imagen2.jpg" alt="Card image cap">
+    <div class="view view-cascade overlay  ">
+      <img class="card-img-top img-fluid " src="img/imagen2.jpg" alt="Card image cap">
       <a href="#!">
-        <div class="mask rgba-white-slight"></div>
+        <div class="mask rgba-white-slight "></div>
       </a>
     </div>
 
@@ -38,5 +39,57 @@
 
 
 </section>
+<%# /imagen de presentacion %>
+<hr>
+<%# time line %>
+<section class="time-line mt-5 mb-5">
 
+  <div class="container ">
+           <h2 class="text-center histori"><strong>Historia</strong></h2>
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="main-timeline5">
+                       <div class="timeline">
+                           <div class="timeline-icon"><span class="year">2015</span></div>
+                           <div class="timeline-content">
+                               <h3 class="title">Primeros Pasos</h3>
+                               <p class="description">
+                                   Termine mi carrera univesitaria en Comercio Exterior, y decidí empezar un proyecto personal, desarrollar páginas web
+                               </p>
+                           </div>
+                       </div>
+                       <div class="timeline">
+                           <div class="timeline-icon"><span class="year">2016</span></div>
+                           <div class="timeline-content">
+                               <h3 class="title">Universidad y plataformas web</h3>
+                               <p class="description">
+                                   Hice cursos de html,css y js en plataformas web como Platzi y en paralelo, inicié la carrera de Sistemas de la información.
+                               </p>
+                           </div>
+                       </div>
+                       <div class="timeline">
+                           <div class="timeline-icon"><span class="year">2017</span></div>
+                           <div class="timeline-content">
+                               <h3 class="title">Web Desginer Freelance</h3>
+                               <p class="description">
+                                  Arranque un negocio on-line ofreciendo mis servicios a PyMES locales y colabore en proyectos de investigación univesitarios.
+                               </p>
+                           </div>
+                       </div>
+                       <div class="timeline">
+                           <div class="timeline-icon"><span class="year">2018</span></div>
+                           <div class="timeline-content">
+                               <h3 class="title">Actualidad</h3>
+                               <p class="description">
+                                   Soy web developer freelance, trabajo en proyectos que me motivan y genero valor a la gente que me contrata.
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+</section>
+<%# /time-line %>
 <% include partials/footer %>
