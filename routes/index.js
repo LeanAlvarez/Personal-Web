@@ -24,11 +24,8 @@ router.get('/contacto', (req, res) =>{
     title: 'Lean Alvarez - Contacto'
   })
 })
-router.get('/blog', (req, res) =>{
-  res.render('blog',{
-    title: 'Lean Alvarez - Blog'
-  })
-})
+
+
 
 
 // exporta las rutas
