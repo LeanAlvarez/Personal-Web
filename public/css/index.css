@@ -114,6 +114,16 @@
   text-decoration: none;
 }
 
+
+
+.desc{
+  color:  #c44569;
+  transition: transform .2s; /* Animation */
+}
+.desc:hover{
+  transform: scale(1.5);
+}
+
 @media(max-width: 960px) {
   .content{
     padding: 0 3rem;
@@ -128,3 +138,22 @@
     border: red 2px;
   }
 /*  error en la validacion*/
+
+@media(max-width: 960px) {
+  .header-video{
+    display: none
+  }
+.imagen{
+  position: absolute;
+ }
+ .imagen, img{
+  width: 100%;
+  height: 100%;
+  }
+}
+@media(min-width: 960px) {
+  .imagen{
+    display: none;
+  }
+
+}
