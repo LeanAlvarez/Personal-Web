@@ -153,3 +153,10 @@
   }
 
 }
+
+/* error */
+.page-wrap {
+  min-height: 100vh;
+}
+
+/* /error */

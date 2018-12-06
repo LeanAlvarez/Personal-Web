@@ -13,6 +13,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "mdbootstrap": "^4.5.10"
+    "mdbootstrap": "^4.5.10",
+    "nodemailer": "^4.7.0"
   }
 }

@@ -34,3 +34,15 @@ function validar(e){
     return false
   }
 }
+
+
+function evitarSpam() {
+  // Si el campo está vacío, envía el formulario.
+  if(!document.getElementById("nospam").value) {
+  return true;
+  }
+  // Si el campo tiene algún valor, es un spam bot
+  else {
+  return false;
+  }
+  }
