@@ -45,13 +45,13 @@ router.post('/contacto/enviar', (req, res,next) => {
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth:{
-      user: 'leanalvarez.dev@gmail.com',
-      pass: process.env.PERSONAL
+      user: process.env.MAIL_U,
+      pass: process.env.MAIL_P
     }  
   })
   let mailOptions = {
     from: 'Nombre: '+ req.body.nombre+ ' Mail: '+ req.body.mail,
-    to: 'leanalvarez.dev@gmail.com',
+    to: process.env.MAIL_U,
     subject: 'Formulario de contacto',
     text: 'Se ha enviado un mensaje desde el formulario de contacto, Nombre: '+ req.body.nombre+' email:'+ req.body.email+' Mensaje: '+req.body.mensaje,
     html: '<p>Se ha enviado un mensaje desde el formulario de contacto</p><ul><li>Nombre: '+req.body.nombre+'</li><li>Email: '+ req.body.email+'</li><li>Mensaje:'+req.body.mensaje+'</li></ul>'
