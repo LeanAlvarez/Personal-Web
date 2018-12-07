@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 
+
+require('dotenv').config()
+
+
 // imports
 const routes = require('./routes/index') //importa las rutas
 

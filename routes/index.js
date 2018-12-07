@@ -46,7 +46,7 @@ router.post('/contacto/enviar', (req, res,next) => {
     service: 'gmail',
     auth:{
       user: 'leanalvarez.dev@gmail.com',
-      pass: 'Lean03447'
+      pass: process.env.PERSONAL
     }  
   })
   let mailOptions = {
