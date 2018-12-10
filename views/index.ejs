@@ -7,9 +7,9 @@
         <video src="img/video/video.mp4" autoplay loop poster="posterimage.jpg"></video>
       </div>
       <div class="header-content contenido">
-          <h1>Lean Alvarez</h1>
-          <p>Desarrollo Web Para Negocios</p>
-          <a class="btn" href="/cv">Acerca de Mi</a>
+          <h1 class="main-titulo">Lean Alvarez</h1>
+          <p class="main-parrafo"><strong>Desarrollo Web Para Negocios</strong></p>
+          <a class="btn main-boton" href="/cv">Acerca de Mi</a>
       </div>
   </header>
 </section>
@@ -18,10 +18,10 @@
 
 <br>
 
-<h2 class="display-4 text-center font-weight-bold mb-4">Tu negocio, más visible!</h2>
+<h2 class="display-4 text-center font-weight-bold mb-4 titulo2">Tu negocio, más visible!</h2>
 <div class="container">
   <div class="row">
-    <p class="text-center text-monospace">Ya no se puede ignorar la importancia de internet en las empresas. A medida que ha evolucionado el mercado,
+    <p class="text-center text-monospace parrafo2">Ya no se puede ignorar la importancia de internet en las empresas. A medida que ha evolucionado el mercado,
         es mucho más fácil que cualquier persona u organización tenga una presencia en línea importante.
         Hoy, para ser competitivo, es fundamental tener un sitio web y cuentas en las principales redes sociales.</p>
   </div>
@@ -31,25 +31,92 @@
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-md-4 ">
-      <i class="fa fa-globe fa-3x red-text d-flex justify-content-center" aria-hidden="true"></i>
-      <p class=" text-center mt-4 font-italic">casi 3.300 millones de personas están en internet. Aunque es posible que encuentren información sobre tu empresa
+      <i class="fa fa-globe fa-3x red-text d-flex justify-content-center i1" aria-hidden="true"></i>
+      <p class=" text-center mt-4 font-italic col1">casi 3.300 millones de personas están en internet. Aunque es posible que encuentren información sobre tu empresa
           de otra manera, es un error estratégico no estar cerca de esa población conectada. Es más, de la gente que usa internet,
           el 90% dijo que tuvo alguna interacción con una empresa en línea en los más recientes 12 meses.</p>
     </div>
-    <div class="col-md-4">
-      <i class="fa fa-star fa-3x cyan-text d-flex justify-content-center" aria-hidden="true"></i>
+    <div class="col-md-4 ">
+      <i class="fa fa-star fa-3x cyan-text d-flex justify-content-center i2" aria-hidden="true"></i>
 
-      <p class=" text-center mt-4 font-italic">Una página bien hecha y bien cuidada se puede convertir en un canal de servicio al cliente. Esto, si se hace bien,
+      <p class=" text-center mt-4 font-italic col2">Una página bien hecha y bien cuidada se puede convertir en un canal de servicio al cliente. Esto, si se hace bien,
         puede marcar la diferencia frente a la competencia y convertirse en un valor agregado.</p>
     </div>
     <div class="col-md-4">
-      <i class="fa fa-users fa-3x d-flex orange-text justify-content-center" aria-hidden="true"></i>
-      <p class=" text-center mt-4 font-italic">Un sitio web está abierto 24 horas al día, siete días a la semana. Esto les permite a los potenciales clientes encontrar información sobre la empresa en cualquier momento del día.
+      <i class="fa fa-users fa-3x d-flex orange-text justify-content-center i3" aria-hidden="true"></i>
+      <p class=" text-center mt-4 font-italic col3">Un sitio web está abierto 24 horas al día, siete días a la semana. Esto les permite a los potenciales clientes encontrar información sobre la empresa en cualquier momento del día.
           Hoy es imposible predecir cuándo un usuario buscará la información, por lo que es fundamental que siempre esté en línea.</p>
     </div>
   </div>
 </div>
 
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="/img/imagen1-7.png" alt="First slide" >
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive mb-5">Desarrollo Web con ultimas tecnologías</h3>
+        <p class="text-monospace"><strong><b>Orientado a la captación de potenciales clientes.</b></strong></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="/img/imagen3.jpeg" alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption ">
+        <h3 class="h3-responsive mb-5">Diseño adaptado a moviles</h3>
+        <p class="text-monospace"><strong><b>Todos los diseños son adaptados para celulares y tablets.</b><strong></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="/img/imagen4.jpeg"   alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive mb-5">Trabajos bajo aprobación del cliente</h3>
+        <p class="text-monospace"><strong><b> Bajo el visto bueno del cliente y sus necesidades.</b></strong> </p>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
 
+<section class="index-cv">
+  <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+    <div class="text-white text-center py-5 px-4 my-5">
+      <div class="titulo-index">
+        <h2 class="card-title h1-responsive pt-3 mb-5 font-bold "><strong>Te invito a conocer mi portfolio de trabajos!</strong></h2>
+        <p class="mx-5 mb-5 text-monospace usec-parrafo">Desarrollo software con ultimas tecnologías y para los navegadores mas utilizados en la actualidad. Te propongo que conozcas mis anteriores
+          trabajos para que tengas una idea de lo que hago.
+          Dejame tus consultas y trabajemos juntos!
+        </p>
+        <a class="btn btn-outline-white btn-md usec-boton" href="/portfolio"><i class="fa fa-clone left"></i>Portfolio</a>
+      </div>
+    </div>
+  </div
+</section>
 
 <% include partials/footer %>
